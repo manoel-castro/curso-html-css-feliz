@@ -75,7 +75,7 @@ a:hover::before{
     position: absolute;
     background-color: #8282823f;
 
-    transition: width .8s ease-in;
+    transition: width .5s ease-in;
     left: 0;
     top: 0;
     width: 0%;
