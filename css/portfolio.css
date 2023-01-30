@@ -91,7 +91,7 @@ div{
     display: inline-block;
     font-family: "Press Start 2p";
     background-color: #272929;
-    box-shadow: 4px 4px 0px #000;
+    box-shadow: 10px 10px 0px #000;
     width: 627px;
     height: 184px;
 }
