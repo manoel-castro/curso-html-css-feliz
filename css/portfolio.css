@@ -87,3 +87,25 @@ a:hover::before{
     color: #fff;
     width: 100%;
 }
+div{
+    display: inline-block;
+    font-family: "Press Start 2p";
+    background-color: #272929;
+    box-shadow: 4px 4px 0px #000;
+    width: 627px;
+    height: 184px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 0px #000;
+    font-weight: 400;
+    font-size: 40px;
+}
+h2{
+    color: #969696; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 4px 4px 0px #000;
+}
