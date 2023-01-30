@@ -87,7 +87,7 @@ a:hover::before{
     color: #fff;
     width: 100%;
 }
-div{
+.nome{
     display: inline-block;
     font-family: "Press Start 2p";
     background-color: #272929;
@@ -108,4 +108,15 @@ h2{
     font-weight: 400;
     font-size: 30px;
     text-shadow: 4px 4px 0px #000;
+}
+button{
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    box-shadow: 4px 4px 0px #000;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 170px;
+    height: 60px;
 }
