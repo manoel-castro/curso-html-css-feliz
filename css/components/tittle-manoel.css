@@ -1,0 +1,22 @@
+.nome{
+    display: inline-block;
+    text-align: center;
+    font-family: "Press Start 2p", sans-serif;
+    background-color: #272929;
+    box-shadow: 10px 10px 0px #000;
+    width: 627px;
+    height: 184px;
+    margin-bottom: 38px;
+}
+h1{
+    color: #fff;
+    text-shadow: 4px 4px 0px #000;
+    font-weight: 400;
+    font-size: 40px;
+}
+h2{
+    color: #969696; 
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 4px 4px 0px #000;
+}
