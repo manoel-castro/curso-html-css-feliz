@@ -1,0 +1,90 @@
+.lista{
+    display: flex;
+    align-content: center;
+    width: 960px;
+    height: 480px;
+    margin-left: 235PX;
+    margin-top: 150px;
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+}
+.list-skills{
+    flex-direction: column;
+}
+.html .html-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.html .img-html{
+    width: 80px;
+    position: absolute;
+}
+.css .css-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.css .img-css{
+    width: 80px;
+    position: absolute;
+}
+.js-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.js .img-js{
+    width: 80px;
+    position: absolute;
+}
+.react-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.react .img-react{
+    width: 80px;
+    position: absolute;
+}
+.list-right{
+    justify-content: end;
+    margin-left: 100px;
+}
+.nodejs .njs-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.nodejs .img-njs{
+    width: 80px;
+    position: absolute;
+}
+.tdd .tdd-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.tdd .img-tdd{
+    width: 80px;
+    position: absolute;
+}
+.api .api-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.api .img-api{
+    width: 80px;
+    position: absolute;
+}
+.ux .ux-skill{
+    height: 90px;
+    padding-left: 110px;
+    padding-bottom: 40px;
+}
+.ux .img-ux{
+    width: 80px;
+    position: absolute;
+}

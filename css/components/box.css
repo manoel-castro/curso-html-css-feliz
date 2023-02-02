@@ -11,11 +11,13 @@
     text-shadow: 4px 4px 0px #000;
     font-weight: 400;
     font-size: 40px;
-    margin-bottom: 28px;
 }
 .subtitle{
     color: #969696; 
     font-weight: 400;
     font-size: 30px;
     text-shadow: 4px 4px 0px #000;
+}
+.box .title{
+    margin-bottom: 28px;
 }
