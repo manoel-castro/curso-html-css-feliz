@@ -13,13 +13,11 @@
     flex-direction: column;
 }
 .html .html-skill{
+    background-image: url(/assets/img/ico_html5.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.html .img-html{
-    width: 80px;
-    position: absolute;
 }
 .css .css-skill{
     height: 90px;
