@@ -20,69 +20,55 @@
     padding-bottom: 40px;
 }
 .css .css-skill{
+    background-image: url(/assets/img/ico_css3.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.css .img-css{
-    width: 80px;
-    position: absolute;
 }
 .js-skill{
+    background-image: url(/assets/img/ico_js.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.js .img-js{
-    width: 80px;
-    position: absolute;
 }
 .react-skill{
+    background-image: url(/assets/img/ico_react.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.react .img-react{
-    width: 80px;
-    position: absolute;
 }
 .list-right{
     justify-content: end;
     margin-left: 100px;
 }
 .nodejs .njs-skill{
+    background-image: url(/assets/img/ico_nodejs.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.nodejs .img-njs{
-    width: 80px;
-    position: absolute;
 }
 .tdd .tdd-skill{
+    background-image: url(/assets/img/ico_tdd.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.tdd .img-tdd{
-    width: 80px;
-    position: absolute;
 }
 .api .api-skill{
+    background-image: url(/assets/img/ico_restapi.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.api .img-api{
-    width: 80px;
-    position: absolute;
 }
 .ux .ux-skill{
+    background-image: url(/assets/img/ico_ux.png);
+    background-repeat: no-repeat;
     height: 90px;
     padding-left: 110px;
     padding-bottom: 40px;
-}
-.ux .img-ux{
-    width: 80px;
-    position: absolute;
 }
