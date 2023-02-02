@@ -1,0 +1,26 @@
+/*butao do header*/
+.button{
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 19px;
+    box-shadow: 5px 5px 0px #000;
+    transition: transform .4s;
+    font-size: 20px;
+    text-decoration: none;
+}
+.button:hover{
+    transform: scale(1.03);
+}
+.button::after{
+    content: "";
+    position: absolute;
+    background-color: #8282823f;
+    transition: width .5s ease-in;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+}

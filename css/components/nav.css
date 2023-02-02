@@ -1,22 +1,15 @@
-nav{
-    text-align: right;
-}
-
-a{
+.link{
    display: inline-flex;
    align-items: center;
    position: relative;
    color: #fff;;
    font-size: 20px;
-   font-family: "Fira Code", Arial, Helvetica, sans-serif;
    font-weight: 500;
    text-decoration: none;
    margin-right: 30px;
    border-bottom: 0;
-
-
 } 
-a::before{
+.link::before{
 /*::before vai indicar um pseudo elemento e precisa de um content*/
    content: "";
    background-color: #828282;
@@ -24,7 +17,7 @@ a::before{
    width: 10px;
    height: 10px;
 }
-a:hover::before{
+.link:hover::before{
    content: "";
    background-color: #969696 ;
 }
@@ -34,7 +27,6 @@ a:hover::before{
 .link:hover{
    color: hsl(0, 0%, 87%);
 }
-
 .link::after{
    content: "";
    position: absolute;
