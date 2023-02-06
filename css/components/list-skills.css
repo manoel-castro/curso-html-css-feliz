@@ -1,74 +1,19 @@
-.lista{
+.skill{
     display: flex;
-    align-content: center;
-    width: 960px;
-    height: 480px;
-    margin-left: 235PX;
-    margin-top: 150px;
-    font-size: 20px;
+    align-items: center;
     color: #fff;
-    list-style: none;
+    font-size: 25px;
+    margin-bottom: 38px;
 }
-.list-skills{
+.skill .right{
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
-.html .html-skill{
-    background-image: url(../../assets/img/ico_html5.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
+.icon{
+    margin-right: 25px;
+    max-width: 90px;
 }
-.css .css-skill{
-    background-image: url(../../assets/img/ico_css3.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
-}
-.js-skill{
-    background-image: url(../../assets/img/ico_js.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
-}
-.react-skill{
-    background-image: url(../../assets/img/ico_react.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
-}
-.list-right{
-    justify-content: end;
-    margin-left: 100px;
-}
-.nodejs .njs-skill{
-    background-image: url(../../assets/img/ico_nodejs.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
-}
-.tdd .tdd-skill{
-    background-image: url(../../assets/img/ico_tdd.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
-}
-.api .api-skill{
-    background-image: url(../../assets/img/ico_restapi.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
-}
-.ux .ux-skill{
-    background-image: url(../../assets/img/ico_ux.png);
-    background-repeat: no-repeat;
-    height: 90px;
-    padding-left: 110px;
-    padding-bottom: 40px;
+.title-skill{
+    font-size: 25px;
 }

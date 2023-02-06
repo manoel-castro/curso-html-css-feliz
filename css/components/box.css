@@ -12,6 +12,10 @@
     font-weight: 400;
     font-size: 40px;
 }
+.title .title-article{
+    text-align: center;
+    color: #FFF;
+}
 .subtitle{
     color: #969696; 
     font-weight: 400;

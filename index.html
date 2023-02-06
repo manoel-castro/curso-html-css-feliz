@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/components/title-article.css">
     <link rel="stylesheet" href="css/components/article.css">
     <link rel="stylesheet" href="css/components/list-skills.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
 </head>    
 <body>
     <header class="header">
@@ -42,56 +44,68 @@
                 </div>
             </div>
         </section>
-    <article class="article">
-        <header>
-            <h1 class="title-article">Skills</h1>
-        </header>
-        <div class="lista">
-            <div class="list-skills">
-                    <div class="html">
-                        <li>
-                            <h1 class="html-skill">HTML</h1>
-                        </li>
-                    </div>
-                    <div class="css">
-                        <li>
-                            <h1 class="css-skill">CSS</h1>
-                        </li>
-                    </div>
-                    <div class="js">
-                        <li>
-                            <h1 class="js-skill">JavaScript</h1>
-                        </li>
-                    </div>
-                    <div class="react">
-                        <li>
-                            <h1 class="react-skill">React</h1>
-                        </li>
-                    </div>
+
+    <section class="article">
+            <h1 class="title title-article">Skills</h1>
+
+        <div class="wrapper-skill">
+            <article class="skill">  
+                    <img class="icon" src="/assets/img/ico_html5.png" alt="Logo do  em pixel art">
+                <div class="right">
+                    <h2 class="title-skill">HTML</h2>
+                    <progress class="bar" max="100" value="70">70%</progress>
+                </div>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_nodejs.png" alt="Logo do HTML em pixel art">
+            <div class="right">
+                <h2 class="title-skill">NodeJS </h2>
+                <progress class="bar" max="100" value="70">70%</progress>
             </div>
-            <div class="list-right">
-                        <div class="nodejs">
-                            <li>
-                                <h1 class="njs-skill">NodeJS</h1>
-                            </li>
-                        </div>
-                        <div class="tdd">
-                            <li>
-                                <h1 class="tdd-skill">TDD</h1>
-                            </li>
-                        </div>
-                        <div class="api">
-                            <li>
-                                <h1 class="api-skill">Rest API</h1>
-                            </li>
-                        </div>
-                        <div class="ux">
-                        <li>
-                            <h1 class="ux-skill">UX</h1>
-                        </li>
-                        </div>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_css3.png" alt="Logo do CSS em pixel art">
+            <div class="right">
+                <h2 class="title-skill">CSS</h2>
+                <progress class="bar" max="100" value="70">70%</progress>
             </div>
-    </div>
-    </article>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_tdd.png" alt="Logo do TDD em pixel art">
+            <div class="right">
+                <h2 class="title-skill">TDD</h2>
+                <progress class="bar" max="100" value="70">70%</progress>
+            </div>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_js.png" alt="Logo do JavaScript em pixel art">
+            <div class="right">
+                <h2 class="title-skill">JavaScript</h2>
+                <progress class="bar" max="100" value="70">70%</progress>
+            </div>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_restapi.png" alt="Logo do Rest API em pixel art">
+            <div class="right">
+                <h2 class="title-skill">Rest API</h2>
+                <progress class="bar" max="100" value="70">70%</progress>
+            </div>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_react.png" alt="Logo do React em pixel art">
+            <div class="right">
+                <h2 class="title-skill">React</h2>
+                <progress class="bar" max="100" value="70">70%</progress>
+            </div>
+            </article>
+            <article class="skill">  
+                <img class="icon" src="/assets/img/ico_ux.png" alt="Logo do UX em pixel art">
+            <div class="right">
+                <h2 class="title-skill">UX</h2>
+                <progress class="bar" max="100" value="70">70%</progress>
+            </div>
+            </article>
+        </div>
+    </section>
 </body>
 </html>
