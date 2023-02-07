@@ -8,19 +8,17 @@
     padding: 106px;
     left: 91px;
 }
-.banner .wrapper{
+.wrapper-banner{
     display: flex;
     flex-direction: column;
     width: 630px;
 }
 
-.banner .box{
+.banner .box-banner{
     margin-bottom: 38px;
-
 }
 
 .banner .navigation{
     display: flex;
     justify-content: space-around;
-
 }
