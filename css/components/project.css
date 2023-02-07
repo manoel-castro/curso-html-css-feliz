@@ -12,4 +12,8 @@
     width:280px;
     margin-top: 99px;
     box-shadow: 10px 10px 0px #FFF;
+    transition: transform 0.4s;
+}
+.icon-project:hover{
+    transform: scale(1.04);
 }
