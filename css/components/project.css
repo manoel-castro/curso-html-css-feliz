@@ -1,0 +1,15 @@
+.project{
+    flex-wrap: wrap;
+    background-color: #000;
+    height: 520px;
+}
+.title-project{
+    text-align: center;
+    padding-top: 50px;
+}
+.icon-project{
+    height:280px;
+    width:280px;
+    margin-top: 99px;
+    box-shadow: 10px 10px 0px #FFF;
+}
