@@ -1,0 +1,15 @@
+.title-about{
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.7);
+    padding-bottom: 66px;
+}
+.text-about{
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 40px;
+    font-family: "Fira Code", sans-serif;
+    color: #FFF;
+    padding-top: 66px;
+}
