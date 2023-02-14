@@ -1,0 +1,38 @@
+.form .subtitle-form{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.button-send{
+    box-shadow: none;
+    width: 200px;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.box-form{
+    box-sizing: border-box;
+    height: 50px;
+    border: 5px solid #000;
+    font-size: 30px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.form{
+    background-color: #828282;
+}
+
+.title-form{
+    padding:50px 0px;
+    text-align: center;
+    font-size: 40px;
+}

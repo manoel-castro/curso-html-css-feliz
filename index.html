@@ -21,6 +21,13 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/project.css">
     <link rel="stylesheet" href="css/components/wrapper-project.css">
+    <link rel="stylesheet" href="css/components/about.css">
+    <link rel="stylesheet" href="css/components/title-about.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carrosel.css">
+    <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/components/form.css">
 </head>    
 <body>
     <header class="header">
@@ -38,7 +45,7 @@
             <div class="wrapper-banner">
                 <div class="box-banner">
                     <h1 class="title-box title">Manoel Castro</h1>
-                    <h2 class="subtitle">FrontEnd Developer</h2>
+                    <h2 class="main-subtitle subtitle-header">FrontEnd Developer</h2>
                 </div>
                 <div class="navigation">
                             <a href="" class="button" lang="en">Download CV</a>
@@ -123,5 +130,87 @@
             </a>
         </div>
     </section>
+    <section class="about">
+        <h1 class="title title-about">Sobre</h1>
+            <section class="main-carrosel">
+                <button class="button-arrow -right"><span class="content"> right</span></button>
+                <div class="items-node-card">
+                        <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title-card">2023</figcaption>
+                            <div class="logo">
+                                <img class="logo-img" src="./assets/img/babuino-sagrado.jpg" alt="logo macaco">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title-card">2023</figcaption>
+                            <div class="logo">
+                                <img class="logo-img" src="./assets/img/babuino-sagrado.jpg" alt="logo macaco">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title-card">2023</figcaption>
+                            <div class="logo">
+                                <img class="logo-img" src="./assets/img/babuino-sagrado.jpg" alt="logo macaco">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title-card">2023</figcaption>
+                            <div class="logo">
+                                <img class="logo-img" src="./assets/img/babuino-sagrado.jpg" alt="logo macaco">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title-card">2023</figcaption>
+                            <div class="logo">
+                                <img class="logo-img" src="./assets/img/babuino-sagrado.jpg" alt="logo macaco">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title-card">2023</figcaption>
+                            <div class="logo">
+                                <img class="logo-img" src="./assets/img/babuino-sagrado.jpg" alt="logo macaco">
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <button class="button-arrow -left"><span class="content"> left</span></button>
+            </section>
+            <p class="text-about">Manoel é um estudante do Ensino Médio, tem 15 anos e está iniciando na área de programação ainda buscando por conhecimentos básicos.</p>
+    </section>
+    
+    <section class="form">
+        <h1 class="title title-form">Contatos</h1>
+        <div class="wrapper-formpage">
+            <div class="wrapper-form">
+                <form>
+                    <label for="name_input"><h2 class="subtitle-form">Nome</h2></label>
+                    <input class="box-form" type="text" id="name_input">
+
+                    <label for="email_input"><h2 class="subtitle-form">Email</h2></label>
+                    <input class="box-form" type="email" id="email_input">
+
+                    <label for="message_input"><h2 class="subtitle-form">Mensagem</h2></label>
+                    <textarea class="box-form" type="text" id="message_input"></textarea>
+
+                    <div class="btn-send">
+                    <button class=" button-send button" type="submit">Enviar</button>
+                    </div>
+                </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <a href="https://twitter.com/manel_castr0" target="_blank">
+                <img class="icon-footer" src="./assets/img/twitter 1.png" alt="icon twitter">
+            </a>
+            <a href="https://github.com/manoel-castro" target="_blank">
+                <img class="icon-footer github-icon" src="./assets/img/github-icon.png" alt="github icon">
+            </a>
+            <a href="https://discord.gg/epyJtZAdft" target="_blank">
+                <img class="icon-footer" src="./assets/img/discord 1.png" alt="icon discord">
+            </a>
+        </div>
+    </footer>
+    <script src="script/components/main-carrosel.js"></script>
 </body>
 </html>
